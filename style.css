@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fetch-btn {
+  text-align: center;
+  margin: 20px 0;
+}
+.fetch-btn button {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.user_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.user_contener {
+  border: 3px solid rgb(255, 239, 239);
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(251, 241, 241);
+  width: 470px;
+}
+.user_avtar {
+  width: 200px;
+  height: 200px;
+}
+.user_detail {
+  align-content: center;
+  padding: 20px;
+  text-align: center;
+}
+.user_fullname {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.user_email {
+  font-size: 22px;
+}
